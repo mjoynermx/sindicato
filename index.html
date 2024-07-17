@@ -56,14 +56,62 @@
             </div>
         </header>
             <!-- COMIENZA EL SLIDER -->
-            <div class="slider">
-               <div class="slider--inner">
-                <img class="img-fluid" src="./images/home/slider/slide_1.png" />
+            <!-- <div class="slider">
+               <div class="slider--inner img-fluid">
+                <img src="./images/home/slider/slide_1.png" />
                 <img src="./images/home/slider/slide_2.png" />
                 <img src="./images/home/slider/slide_3.png" />
                 <img src="./images/home/slider/slide_4.png" />
                </div>
-            </div>
+            </div> -->
+            <section id="container-slider">
+                <!-- <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+                <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a> -->
+                <ul class="listslider">
+                    <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+                    <li><a itlist="itList_1" href="#"></a></li>
+                    <li><a itlist="itList_2" href="#"></a></li>
+                    <li><a itlist="itList_3" href="#"></a></li>
+                </ul>
+                <ul id="slider">
+                    <li style="background-image: url('./images/home/slider/slide_1.png'); z-index:0; opacity: 1;">
+                        <div class="content_slider" >
+                            <div>
+                                <!-- <h2>Emprendimiento empresarial</h2>
+                                <p>Descubra en qué consiste el emprendimiento empresarial por medio de 5 estrategias fundamentales.</p>
+                                <a href="#" class="btnSlider">Ver más</a> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url('./images/home/slider/slide_2.png'); z-index:0; opacity: 1;">
+                        <div class="content_slider" >
+                            <div>
+                                <!-- <h2>Emprendimiento empresarial</h2>
+                                <p>Descubra en qué consiste el emprendimiento empresarial por medio de 5 estrategias fundamentales.</p>
+                                <a href="#" class="btnSlider">Ver más</a> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url('./images/home/slider/slide_3.png'); z-index:0; opacity: 1;">
+                        <div class="content_slider" >
+                            <div>
+                                <!-- <h2>Emprendimiento empresarial</h2>
+                                <p>Descubra en qué consiste el emprendimiento empresarial por medio de 5 estrategias fundamentales.</p>
+                                <a href="#" class="btnSlider">Ver más</a> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url('./images/home/slider/slide_4.png'); z-index:0; opacity: 1;">
+                        <div class="content_slider" >
+                            <div>
+                                <!-- <h2>Emprendimiento empresarial</h2>
+                                <p>Descubra en qué consiste el emprendimiento empresarial por medio de 5 estrategias fundamentales.</p>
+                                <a href="#" class="btnSlider">Ver más</a> -->
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
             <!-- TERMINA EL SLIDER -->
 
             <section id="services" style="background-color: #f2f2f2;">
@@ -208,7 +256,7 @@
                                 <div style="background-color: #2b4d80; font-size: 22px; font-weight: bold; text-align: center; color: #f2f2f2; padding: 10px;">Plan -70</div>
                                 <div style="padding: 10px; font-size: 18px; background-color: aliceblue;">
                                     <div>Beneficio Médico en caso de enfermedad repentina o accidente</div>
-                                    <div style="text-align: center; font-weight: bold; background-color: aliceblue;">Hasta por $300,000 MXN</div><hr>
+                                    <div style="text-align: center; font-weight: bold; background-color: aliceblue;">Hasta por $300,000 MXN<br><span style="font-size: 10px;">Para todos los Beneficios Médicos y Asistencias</span></div><hr>
                                 </div>
                                 <div style="font-size: 18px; padding: 10px; background-color: aliceblue;">
                                     <div>
@@ -227,7 +275,7 @@
                                 <div style="font-size: 18px; padding: 10px; background-color: aliceblue;">
                                     <div>
                                         Orientación en trámites, Asistencia Legal Telefónica, Transmisión de mensajes urgentes, Referencias telefónicas 
-                                        <div style="text-align: center; font-weight: bold; background-color: aliceblue;">Sin límite de eventos</div><br>
+                                        <div style="text-align: center; font-weight: bold; background-color: aliceblue;">Sin límite de eventos</div><br><br>
                                     </div>
 
                                 </div>
@@ -241,7 +289,7 @@
                                     <div style="background-color: #f2a73e; font-size: 22px; font-weight: bold; text-align: center; color: #f2f2f2; padding: 10px;">Plan +70</div>
                                     <div style="padding: 10px; font-size: 18px; background-color: #ffffff;">
                                         <div>Beneficio Médico en caso de accidente</div>
-                                        <div style="text-align: center; font-weight: bold;">Hasta por $100,000 MXN</div><hr><br>
+                                        <div style="text-align: center; font-weight: bold;">Hasta por $100,000 MXN</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 10px; text-align: center; font-weight: bold;">Para todos los Beneficios Médicos y Asistencias, a excepción de la Muerte Accidental.</span><hr><br>
                                         <div>Beneficio por Muerte Accidental</div>
                                         <div style="text-align: center; font-weight: bold;">$200,000 MXN</div><hr><br>
                                     </div>
@@ -259,7 +307,7 @@
                                         <div>Orientación en trámites, Asistencia legal telefónica, Transmisión de mensajes urgentes y referencias telefónicas</div>
                                         <div style="text-align: center; font-weight: bold;">Sin límite de eventos</div><hr><br>
                                         <div>Ambulancia terrestre, Médico al hotel por emergencia</div>
-                                        <div style="text-align: center; font-weight: bold;">1 Evento anual</div><hr><br><br><br><br><br>
+                                        <div style="text-align: center; font-weight: bold;">1 Evento anual</div><hr><br><br><br><br><br><br>
                                     </div>
                                     <!-- <div style="font-size: 18px; padding: 10px; background-color: #ffffff;">
                                         <div>
@@ -512,10 +560,13 @@
                         </div>
                         <div class="col-sm-12">
                             <div class="copyright-text text-center">
-                                <p>&copy; SUTG CDMX 2024. Derechos Reservados.</p>
-                                <p>Designed by <a target="_blank" href="https://ikeasistencia.com/">iké</a></p>
+                                <p>&copy; SUTG CDMX 2024. Derechos Reservados.</p><br>
+                            <div class="row">
+                            <div class="col-6"><a href="TyC.pdf" target="_tab">Términos y Condiciones</a><br></div>
+                                <div class=" col-6 copyright-text text-center"> <a href="aviso_privacidad.html" target="_tab">Aviso de Privacidad</a></div>
                             </div>
-                            <div class="copyright-text text-center"> Términos y Condiciones</div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -526,7 +577,8 @@
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./js/lightbox.min.js"></script>
     <script type="text/javascript" src="./js/wow.min.js"></script>
-    <script type="text/javascript" src="./js/main.js"></script>   
+    <script type="text/javascript" src="./js/main.js"></script> 
+    <script type="text/javascript" src="./js/functions.js"></script>  
     <script>
         // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
@@ -548,5 +600,57 @@ function myFunction() {
 
 
     </script>
-    <script src="./js/mySlider.js"></script>
+    <script>
+        if(document.querySelector('#container-slider')){
+   setInterval('fntExecuteSlide("next")',4000);
+}
+//------------------------------ LIST SLIDER -------------------------
+if(document.querySelector('.listslider')){
+   let link = document.querySelectorAll(".listslider li a");
+   link.forEach(function(link) {
+      link.addEventListener('click', function(e){
+         e.preventDefault();
+         let item = this.getAttribute('itlist');
+         let arrItem = item.split("_");
+         fntExecuteSlide(arrItem[1]);
+         return false;
+      });
+    });
+}
+
+function fntExecuteSlide(side){
+    let parentTarget = document.getElementById('slider');
+    let elements = parentTarget.getElementsByTagName('li');
+    let curElement, nextElement;
+
+    for(var i=0; i<elements.length;i++){
+
+        if(elements[i].style.opacity==1){
+            curElement = i;
+            break;
+        }
+    }
+    if(side == 'prev' || side == 'next'){
+
+        if(side=="prev"){
+            nextElement = (curElement == 0)?elements.length -1:curElement -1;
+        }else{
+            nextElement = (curElement == elements.length -1)?0:curElement +1;
+        }
+    }else{
+        nextElement = side;
+        side = (curElement > nextElement)?'prev':'next';
+
+    }
+    //RESALTA LOS PUNTOS
+    let elementSel = document.getElementsByClassName("listslider")[0].getElementsByTagName("a");
+    elementSel[curElement].classList.remove("item-select-slid");
+    elementSel[nextElement].classList.add("item-select-slid");
+    elements[curElement].style.opacity=0;
+    elements[curElement].style.zIndex =0;
+    elements[nextElement].style.opacity=1;
+    elements[nextElement].style.zIndex =1;
+}
+    </script>
+    <!-- <script src="./js/mySlider.js"></script> -->
 </html>
